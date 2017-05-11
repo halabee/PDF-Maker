@@ -2,9 +2,9 @@ import csv
 from PyPDF2 import PdfFileReader, PdfFileMerger
 from os import listdir, chdir
 
-pathFolder = r"/Users/mhalabi/Desktop/Python/" #update...duh
-pathExcel = r"/Users/mhalabi/Desktop/Python/tar.csv" #update...duh
-pathAP = r"/Users/mhalabi/Desktop/Finance/AP/AP FY17" #update...duh
+pathFolder = r"/Path/To/Folder/to/write/to" #update...duh
+pathExcel = r"/Path/to/Excel/File/With/Desired/Invoices" #update...duh
+pathAP = r"/Path/to/folder/with/invoice/files" #update...duh
 
 #list of all the invoices in the AP Folder
 filelist = listdir(pathAP)
